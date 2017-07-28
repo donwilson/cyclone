@@ -13,7 +13,7 @@
 					self::$instances[ $class ] = array();
 				}
 				
-				$reflection = new ReflectionClass( (isset(self::$class_keys[ $class ])?self::$class_keys[ $class ]:$class) );
+				$reflection = new \ReflectionClass( (isset(self::$class_keys[ $class ])?self::$class_keys[ $class ]:$class) );
 				
 				self::$instances[ $class ][ $class_id ] = $reflection->newInstanceArgs($vars);
 				
