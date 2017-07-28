@@ -1,0 +1,16 @@
+{
+	"name": "donwilson/cyclone",
+	"description": "Light website engine",
+	"keywords": ["website engine"],
+	"homepage": "https://github.com/donwilson/cyclone",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Don Wilson",
+			"email": "donwilson@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {"Cyclone": "src/"}
+	}
+}
