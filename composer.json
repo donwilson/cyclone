@@ -11,6 +11,6 @@
 		}
 	],
 	"autoload": {
-		"psr-0": {"Cyclone": "src/"}
+		"psr-4": {"Cyclone\\": "src/"}
 	}
 }
